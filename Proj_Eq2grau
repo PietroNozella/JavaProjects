@@ -1,0 +1,19 @@
+package proj_eq2g;
+
+/**
+ *
+ * @author pietr
+ */
+public class Proj_Eq2g {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Eq2grau eq1= new Eq2grau(1,-13,40);
+        eq1.calcularX1();
+        eq1.calcularX2();
+        eq1.imprimir();
+    }
+    
+}
